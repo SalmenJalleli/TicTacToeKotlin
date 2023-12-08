@@ -37,3 +37,6 @@ fun takeTurns(){
 fun isPlayingAgain(answer:String):Boolean{
     return (answer.equals("y",true) || answer.equals("yes",true))
 }
+fun keepTurn(){
+    print("I'm keeping up")
+}
